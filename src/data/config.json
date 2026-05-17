@@ -1,0 +1,20 @@
+{
+  "abdul-farid": {
+    "nama": "Skripsi Atas Nama Abdul Farid",
+    "pdfUrl": "/files/abdul-farid.pdf",
+    "docUrl": "",
+    "pin": "123456"
+  },
+  "cinta-aulia": {
+    "nama": "Skripsi Atas Nama Cinta Aulia",
+    "pdfUrl": "/files/Cinta.pdf",
+    "docUrl": "https://docs.google.com/document/d/1cGBcdZRCSZORnNRE7E7kfYRgjEwjQz1t/export?format=docx",
+    "pin": "123456"
+  },
+  "jojo": {
+    "nama": "Skripsi Atas Nama Jojo",
+    "pdfUrl": "/files/jojo.pdf",
+    "docUrl": "",
+    "pin": "123456"
+  }
+}

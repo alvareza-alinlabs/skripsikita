@@ -1,0 +1,35 @@
+@import "tailwindcss";
+
+/* Custom Minimalist Scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #e2e8f0; /* slate-200 */
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #cbd5e1; /* slate-300 */
+}
+
+/* Firefox */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #cbd5e1 transparent;
+}
+
+html, body {
+  overscroll-behavior-y: none;
+}
+
+.react-pdf__Page, .react-pdf__Page canvas, .react-pdf__Page .react-pdf__Page__textContent {
+  width: 100% !important;
+  height: 100% !important;
+}
